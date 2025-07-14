@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Atlas Panel - Advanced web panel for managing multiple servers all in one panel" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <title>Atlas Panel - Server Management Made Easy</title>
+  </head>
+  <body>
+    <div id="loading-screen">
+      <div class="loading-content">
+        <img src="/logo.png" alt="Atlas Panel" class="loading-logo" />
+        <h1>Atlas Panel</h1>
+        <div class="loading-spinner"></div>
+      </div>
+    </div>
+    
+    <div id="app">
+      <div class="beta-warning">
+        <div class="container">
+          <div class="beta-warning-content">
+            <i class="fas fa-exclamation-triangle"></i>
+            <span>This is in early beta and should NOT be used in production</span>
+          </div>
+        </div>
+      </div>
+      
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="nav-logo">
+            <h1>Atlas Panel</h1>
+          </div>
+          <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="https://github.com/atlaspanel" target="_blank">GitHub</a>
+            <a href="https://github.com/atlaspanel/panel/releases" class="download-btn" target="_blank">Download</a>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section class="hero">
+          <div class="hero-container">
+            <h1>Server Management Made Easy</h1>
+            <p>Atlas Panel is an advanced web panel for managing multiple servers all in one centralized dashboard. Currently in early beta.</p>
+            <div class="hero-buttons">
+              <a href="https://github.com/atlaspanel/panel/releases" class="btn btn-primary" target="_blank">Get Started</a>
+              <a href="#features" class="btn btn-secondary">Learn More</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="features" class="features">
+          <div class="container">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-server"></i>
+                </div>
+                <h3>Multi-Server Management</h3>
+                <p>Manage multiple servers from a single, unified control panel</p>
+              </div>
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Real-Time Monitoring</h3>
+                <p>Monitor server performance, resources, and health in real-time</p>
+              </div>
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Secure Access</h3>
+                <p>Enterprise-grade security with role-based access control</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="download" class="download">
+          <div class="container">
+            <h2>Get Atlas Panel</h2>
+            <p>Currently in early beta. Join us in shaping the future of server management.</p>
+            <div class="download-buttons">
+              <a href="https://github.com/atlaspanel/panel/releases" class="btn btn-primary" target="_blank">Download Latest</a>
+              <a href="https://github.com/atlaspanel/panel" class="btn btn-outline" target="_blank">View on GitHub</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <p>&copy; 2025 Atlas Panel. Open Source Server Management.</p>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
